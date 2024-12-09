@@ -777,7 +777,7 @@ body {
   }
   
   .skills {
-    display: flex;
+    display: inline-block;
     white-space: nowrap; /* Prevent text wrapping */
     animation: slideHorizontal 45s linear infinite; /* Horizontal animation */
     gap: 10px;
@@ -794,7 +794,7 @@ body {
   /* Horizontal Slide Animation */
   @keyframes slideHorizontal {
     0% {
-      transform: translateX(0%); /* Start off-screen (right) */
+      transform: translateX(100%); /* Start off-screen (right) */
     }
     100% {
       transform: translateX(-100%); /* End off-screen (left) */
