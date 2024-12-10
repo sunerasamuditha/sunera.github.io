@@ -58,7 +58,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    justify-self: end;
+    
     left: 4em;
   }
   
